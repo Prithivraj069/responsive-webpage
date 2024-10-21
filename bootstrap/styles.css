@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 @media screen and (min-width:768px) {
     .carousel-item img {
         max-height: 768px;
@@ -14,6 +19,21 @@
         opacity: 0.75;
     }
 
+}
+
+@media screen and (max-width:576px) {
+
+    .sectionPart {
+        flex-wrap: wrap;
+    }
+
+}
+
+#navbarSticky{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 2000;
 }
 
 

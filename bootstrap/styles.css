@@ -14,11 +14,23 @@ body {
     
     #call-action {
         position: absolute;
-        bottom: 5%;
+        bottom:20%;
         right: 5%;
         opacity: 0.75;
     }
 
+    .action-content1 {
+        background-color: #ea3737;
+        border-radius: 50px 20px;
+    }
+    .action-content2 {
+        background-color: rgb(227, 223, 223);
+        border-radius: 50px 20px;
+    }
+    .action-content3 {
+        background-color: rgb(184, 235, 219);
+        border-radius: 50px 20px;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -35,5 +47,8 @@ body {
     bottom: 0;
     z-index: 2000;
 }
+
+/* footer {
+} */
 
 

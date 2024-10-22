@@ -54,7 +54,16 @@ body {
     z-index: 2000;
 }
 
-/* footer {
+#brand-logo {
+    position: relative;
+  animation: mymove 3s;
+  animation-iteration-count:infinite ;
+}
+
+/* @media screen and (min-width:768px) {
+    .navbar .login-btn {
+        position: absolute;
+        top: 0px;
+        right: 15px;
+      }
 } */
-
-

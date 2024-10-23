@@ -60,10 +60,7 @@ body {
   animation-iteration-count:infinite ;
 }
 
-/* @media screen and (min-width:768px) {
-    .navbar .login-btn {
-        position: absolute;
-        top: 0px;
-        right: 15px;
-      }
-} */
+.medicine-card img {
+    width: 60px;
+    height: 60px;
+}

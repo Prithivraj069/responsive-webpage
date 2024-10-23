@@ -36,6 +36,12 @@ body {
         transform: scale(1.2);
         width: 800px;
       }
+
+      .link-cards {
+        margin-top: 9rem !important;
+        margin-bottom: 9rem !important;
+      }
+
 }
 
 @media screen and (max-width:576px) {
@@ -43,8 +49,6 @@ body {
     .sectionPart {
         flex-wrap: wrap;
     }
-    
-
 }
 
 #navbarSticky{
@@ -67,4 +71,18 @@ body {
 
 .medicine-card:hover {
     background-color:#696e96;
+}
+
+@media screen and (min-width:992px) {
+    .navbar-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    .search-input {
+        display: none;
+    }
 }
